@@ -377,6 +377,21 @@ body{
     .header{padding: 0px;}
     .line-1{
         padding-top: 40px;
-        font-size: 30px;
     }
+    .line-3{
+        padding-top: 40px;
+    }
+    .line-4{
+        padding-top: 30px;
+    }
+    .section2{display: flex;
+        flex-direction: row;
+        gap: 50px;
+        overflow-x: scroll;
+        padding-left: 0px;
+        padding-right: 158px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #D0D0D0 ;
+        margin-top: 50px;}
 }
