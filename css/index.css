@@ -427,6 +427,13 @@ body{
         margin-top: 50px;}
     .section3{
         flex-direction: column-reverse;
+        padding-left: 0px;
+    }
+    .section4{
+        padding-left: 0px;
+    }
+    .section5{
+        padding-left: 0px;
     }
     .section3-leftside{
         padding-top: 30px;
