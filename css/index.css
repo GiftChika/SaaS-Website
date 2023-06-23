@@ -388,6 +388,10 @@ body{
     .line-3{
         padding-top: 40px;
     }
+    .section5-rightside img{
+        padding: 0px 0px;
+        width: 80%;
+    }
     .line-4{
         padding-top: 30px;
     }
