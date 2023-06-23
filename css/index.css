@@ -97,6 +97,9 @@ body{
     top: 100px;
     
 }
+.bt2{
+    display: none;
+}
 /* section2 */
 .section2{
     display: flex;
@@ -403,9 +406,13 @@ body{
     .section3-leftside{
         padding-top: 30px;
     }
+    .section1-rightside img{
+        display: none;
+    }
     .btnn{
         display: flex;
     }
+    .bt2{display: flex;}
     .section4{
         flex-direction: column;
         gap: 40px;
