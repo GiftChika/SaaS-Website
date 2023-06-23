@@ -409,4 +409,14 @@ body{
     .section6{
         overflow-x: scroll;
     }
+    .section7{
+        display: none;
+    }
+    .text-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        text-align: center;
+    }
 }
