@@ -36,7 +36,7 @@ body{
     gap: 60px;
     align-items: center;
 }
-.txt-header{
+.txt-head{
     font-weight: 700;
     font-size: 14px;
 }
@@ -392,6 +392,13 @@ body{
         display: flex;
         flex-direction: column;
         gap: 40px;
+    }
+    .txt-head{
+        display: none;
+    }
+    .txt-header{
+        font-weight: 700;
+    font-size: 14px;
     }
 .icon-section{
     display: none;
