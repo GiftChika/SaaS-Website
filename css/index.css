@@ -367,6 +367,9 @@ body{
     flex-direction: row;
     gap: 20px;
 }
+.icon-section2{
+    display: none;
+}
 /* media queries */
 @media screen and (max-width: 600px) {
 
@@ -379,11 +382,22 @@ body{
         justify-content: none;
         padding: 0px;
     }
-    .txt-header{display: none;}
+    
     .header{padding: 0px;}
     .line-1{
         padding-top: 40px;
         font-size: 40px;
+    }
+    .icon-section2{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+.icon-section{
+    display: none;
+}
+    .line-straight{
+        display: none;
     }
     .line-3{
         padding-top: 40px;
