@@ -335,3 +335,19 @@ body{
 .clear{
     padding-top: 50px;
 }
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.navside{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
