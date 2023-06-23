@@ -169,12 +169,12 @@ body{
     padding: 50px 150px;
     color: white;
 }
-.section4-
-.secontion4-one{
+.section4-one{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 12px;
+    
 }
 /* section5 */
 .section5{
@@ -217,7 +217,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 .line1{
     color: #201C44;
@@ -236,4 +236,60 @@ body{
     align-items: center;
     padding-top: 60px;
     gap: 15px;
+}
+/* section7 */
+.section7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.section7-leftside{
+    padding-top: 80px;
+}
+.lin1{
+    color: #201C44;
+    font-weight: 700;
+    font-size: 38px;
+    
+}
+.lin2{
+    color: #131126;
+    padding-top: 50px;
+}
+
+.lin3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.lin4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-top: 30px;
+}
+.lin4 p{
+    font-weight: 700;
+    color: #201C44;
+}
+.txt1{
+    font-weight: 700;
+    color: #131126;
+    font-size: 24px;
+}
+.txt2{
+    font-weight: 700;
+    color: #131126;
+    font-size: 16px;
+}
+.one1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.two{
+
 }
