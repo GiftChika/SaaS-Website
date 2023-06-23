@@ -362,6 +362,21 @@ body{
     gap: 20px;
 }
 /* media queries */
-@media only screen and (max-width:) {
-    
+@media screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+    .section1{
+        flex-direction: column;
+        width: 100%;
+        justify-content: none;
+        padding: 0px;
+    }
+    .txt-header{display: none;}
+    .header{padding: 0px;}
+    .line-1{
+        padding-top: 40px;
+        font-size: 30px;
+    }
 }
