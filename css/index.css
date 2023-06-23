@@ -40,6 +40,9 @@ body{
     font-weight: 700;
     font-size: 14px;
 }
+.btnn{
+    display: none;
+}
 /* section1 */
 .section1{
     display: flex;
@@ -400,6 +403,9 @@ body{
     .section3-leftside{
         padding-top: 30px;
     }
+    .btnn{
+        display: flex;
+    }
     .section4{
         flex-direction: column;
         gap: 40px;
@@ -410,6 +416,9 @@ body{
         overflow-x: scroll;
     }
     .section7{
+        display: none;
+    }
+    .rightside-header{
         display: none;
     }
     .text-section{
@@ -440,5 +449,20 @@ body{
         color: #131126;
         font-size: 16px;
         padding-left: 20px;
+    }
+    .three-line{
+        padding: 50px 30px;
+    }
+    .navside{
+        display: flex;
+        flex-direction: column;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .section5-rightside{
+        align-items: center;
+        padding-top: 40px;
+    
     }
 }
