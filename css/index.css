@@ -393,6 +393,15 @@ body{
         flex-direction: column;
         gap: 40px;
     }
+    .woman{
+        width: 100px;
+    }
+    .man1{
+        width: 400px;
+    }
+    .woman2{
+        width: 400px;
+    }
     .txt-head{
         display: none;
     }
